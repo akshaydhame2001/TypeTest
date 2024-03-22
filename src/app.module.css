@@ -1,0 +1,52 @@
+
+.correctChar,
+.incorrectChar,
+.untypedChar,
+.spaceChar {
+  line-height: 1.6;
+  word-spacing: 5px;
+  font-size: calc(25 / 16 * 1rem);
+}
+
+.gameStatus {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 667px) {
+  .gameStatus {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 30px;
+  }
+}
+
+.gameStatus div {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+
+
+.correctChar {
+  color: #82ff62;
+}
+
+.incorrectChar {
+  color: #ee6060;
+}
+
+.untypedChar {
+  color: #ffffff;
+}
+
+.spaceChar {
+  color: gray;
+}
+
