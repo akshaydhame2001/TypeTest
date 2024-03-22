@@ -205,7 +205,7 @@ export default function App() {
           </div>
 
           <div className="gap-[5px]">
-            <LuCaseSensitive className="text-[40px] text-[#007bff]" /> Caps Lock{" "}
+            <LuCaseSensitive className="text-[40px] text-[#007bff]" /> CapsLock{" "}
             <span>{capsLock ? "On" : "Off"}</span>
           </div>
         </div>
